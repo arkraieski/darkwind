@@ -1,6 +1,10 @@
-# Introduction
+## Introduction
 
-Darkwind is a minimal WordPress blog theme featuring built-in dark mode.
+Darkwind is a minimal WordPress blog theme featuring built-in dark mode that automatically respects the OS dark mode setting. Built with Tailwind CSS. A basic setup for local development using `docker-compose` is included.
+
+Darkwind tries to get out of the way to let your content and plugins shine.
+
+Built for PHP 8
 
 ## NPM Scripts
 
@@ -14,7 +18,7 @@ There are several NPM scripts available. You'll find the full list in the `packa
 
 ## Block editor support
 
-TailPress comes with support for the [block editor](https://wordpress.org/support/article/wordpress-editor/).
+Darkwind comes with support for the [block editor](https://wordpress.org/support/article/wordpress-editor/).
 
 A basic setup for `theme.json` is included. This also means that you need to at least use WordPress 5.8. If you wan't to support earlier WordPress versions, you can use an [older version](https://github.com/jeffreyvr/tailpress/tree/0.1.1) of TailPress instead.
 
@@ -42,4 +46,4 @@ Several colors and font sizes are defined from the beginning. You can modify the
 
 ## License
 
-GPL-2. Please see the [License File](/LICENSE) for more information.
+GPL-2. Please see the [License File](/COPYING) for more information.

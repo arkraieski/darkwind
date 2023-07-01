@@ -1,0 +1,1 @@
+This is readme.txt for Darkwind. You should check out README.MD for more detailed documentation and the build process

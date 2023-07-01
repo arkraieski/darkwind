@@ -9,7 +9,9 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'bg-white dark:bg-gray-900 text-gray-900 dark:text-white antialiased' ); ?>>
+<body 
+
+<?php body_class( 'bg-white dark:bg-gray-900 text-gray-900 dark:text-white antialiased' ); ?>>
 
 <?php do_action( 'darkwind_site_before' ); ?>
 
@@ -26,7 +28,7 @@
 						<?php if ( has_custom_logo() ) { ?>
                             <?php the_custom_logo(); ?>
 						<?php } else { ?>
-							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
+							<a href="<?php echo esc_url( home_url() ); ?>" class="font-extrabold text-lg uppercase">
 								<?php echo get_bloginfo( 'name' ); ?>
 							</a>
 
@@ -67,6 +69,8 @@
 			</div>
 		</div>
 	</header>
+
+	<?php wp_body_open(); ?>
 
 	<div id="content" class="site-content flex-grow">
 
