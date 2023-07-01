@@ -2,15 +2,15 @@
 	"name": "darkwind",
 	"version": "0.1.0",
 	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"author": "Alex Kraieski",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/username/darkwind"
 	},
 	"theme_uri": "https://github.com/username/darkwind",
-	"author_uri": "https://vanrossum.dev",
+	"author_uri": "https://alex.kraieski.net",
 	"text_domain": "darkwind",
-	"license": "MIT",
+	"license": "GPL-2",
 	"scripts": {
 		"dev": "mix",
 		"watch": "mix watch",

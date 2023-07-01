@@ -1,61 +1,6 @@
-<p><img src="http://tailpress.io/images/tailpress100.svg" width="260" alt="TailPress"></p>
-
-[![GitHub release](https://img.shields.io/github/release/jeffreyvr/tailpress?include_prereleases=&sort=semver)](https://github.com/jeffreyvr/tailpress/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-[![issues - tailpress](https://img.shields.io/github/issues/jeffreyvr/tailpress)](https://github.com/jeffreyvr/tailpress/issues)
-
 # Introduction
 
-TailPress is a minimal boilerplate theme for WordPress using [Tailwind CSS](https://tailwindcss.com/).
-
-## Getting started
-
-### Using the installer
-
-You can get started using the installer (using composer):
-
-```bash
-composer global require jeffreyvanrossum/tailpress-installer
-
-tailpress new example-theme
-```
-
-*If you haven't already, make sure to place the `~/.composer/vendor/bin` directory in your `PATH` so the tailpress executable is found when you run the tailpress command in your terminal.*
-
-You can optionally set the theme name.
-
-```bash
-tailpress new example-theme --name="Example Theme"
-```
-
-By default, TailPress uses Laravel Mix for compiling. Rather use Esbuild?
-
-```bash
-tailpress new example-theme --compiler="esbuild"
-```
-
-You can also initialize a new Git repository (branch defaults to `main`):
-
-```bash
-tailpress new example-theme --name="Example Theme" --git --branch="main"
-```
-
-Once your theme is ready, don't forget to cd into the directory.
-
-You will be asked if you would like to have WordPress installed as well. Keep in mind that you still need a local development environment for PHP and MySQL.
-
-### Regular method
-
-* Clone repo `git clone https://github.com/jeffreyvr/tailpress.git && cd tailpress`
-* Run `rm -rf .git` to remove git (or `rmdir .git` for Windows)
-* Run `npm install`
-* Run `npm run watch` to start developing
-
-### General
-
-You will find the editable CSS and Javascript files within the `/resources` folder.
-
-Before you use your theme in production, make sure you run `npm run production`.
+Darkwind is a minimal WordPress blog theme featuring built-in dark mode.
 
 ## NPM Scripts
 
@@ -91,9 +36,10 @@ Several colors and font sizes are defined from the beginning. You can modify the
 
 ## Contributors
 
+* [Alexander Kraieski](https://github.com/arkraieski)
 * [Jeffrey van Rossum](https://github.com/jeffreyvr)
 * [All contributors](https://github.com/jeffreyvr/tailpress/graphs/contributors)
 
 ## License
 
-MIT. Please see the [License File](/LICENSE) for more information.
+GPL-2. Please see the [License File](/LICENSE) for more information.
