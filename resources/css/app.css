@@ -3,3 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import "custom.css";
+
+.is-style-cool-button .wp-element-button {
+    @apply w-full sm:w-auto flex-none bg-primary text-white hover:bg-orange-500 text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-full focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200;
+}

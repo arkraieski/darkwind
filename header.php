@@ -19,7 +19,7 @@
 
 	<?php do_action( 'darkwind_header' ); ?>
 
-	<header>
+	<header class = "fixed top-5 backdrop-blur w-full z-40 shadow-md overscroll-none">
 
 		<div class="mx-auto container">
 			<div class="lg:flex lg:justify-between lg:items-center border-b py-6">
@@ -32,7 +32,7 @@
 								<?php echo get_bloginfo( 'name' ); ?>
 							</a>
 
-							<p class="text-sm font-light text-gray-600">
+							<p class="text-sm font-light dark:font-medium text-gray-600 dark:text-gray-200">
 								<?php echo get_bloginfo( 'description' ); ?>
 							</p>
 
@@ -95,4 +95,4 @@
 
 		<?php do_action( 'darkwind_content_start' ); ?>
 
-		<main>
+		<main class = "mt-28">
