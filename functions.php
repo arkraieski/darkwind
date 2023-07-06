@@ -28,7 +28,6 @@ function darkwind_setup() {
 
 	add_theme_support( 'align-wide' );
 	add_theme_support( 'wp-block-styles' );
-	add_theme_support( 'block-templates' );
 
 	add_theme_support( 'editor-styles' );
 	add_editor_style( 'css/editor-style.css' );
@@ -128,4 +127,3 @@ function darkwind_register_block_styles(){
 }
 
 add_filter( 'nav_menu_submenu_css_class', 'darkwind_nav_menu_add_submenu_class', 10, 3 );
-add_filter( 'should_load_separate_core_block_assets', '__return_true');
