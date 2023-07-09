@@ -19,7 +19,7 @@
 
 	<?php do_action( 'darkwind_header' ); ?>
 
-	<header class = "fixed top-5 backdrop-blur w-full z-40 shadow-md overscroll-none">
+	<header class = "sticky top-0 backdrop-blur w-full z-40 shadow-md overscroll-none">
 
 		<div class="mx-auto container">
 			<div class="lg:flex lg:justify-between lg:items-center border-b py-6">
