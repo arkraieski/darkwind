@@ -33,6 +33,7 @@ function darkwind_setup() {
 	add_editor_style( 'css/editor-style.css' );
 
 	add_theme_support( 'automatic-feed-links' );
+	
 }
 
 add_action( 'after_setup_theme', 'darkwind_setup' );
