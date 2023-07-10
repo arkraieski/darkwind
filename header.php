@@ -61,8 +61,8 @@
 						'container_class' => 'hidden bg-gray-100 dark:bg-gray-900 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary', 
-						'li_class_0'        => 'lg:mx-4, flex lg:relative group px-6',
-						'submenu_class'   => 'lg:hidden group-hover:block lg:absolute lg:right-0 lg:rounded lg:w-48 lg:max-w-xl text-primary dark:text-white bg-blue-50 dark:lg:bg-stone-600 dark:bg-gray-900 p-4 block',
+						'li_class_0'        => 'lg:mx-4, flex lg:relative group px-6 hover:text-primary',
+						'submenu_class'   => 'lg:hidden group-hover:block lg:group-hover:top-6  lg:group-hover: lg:group-hover:place-content-center lg:absolute lg:right-0 lg:rounded lg:w-48 lg:max-w-xl text-primary dark:text-white bg-blue-50 dark:lg:bg-stone-600 dark:bg-gray-900 p-4 block',
 						'fallback_cb'     => false,
 					)
 				);

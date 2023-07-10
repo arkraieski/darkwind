@@ -755,6 +755,10 @@ video {
     padding-left: 2.5rem;
     padding-right: 2.5rem
 }
+.px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+}
 .text-center{
     text-align: center
 }
@@ -1006,6 +1010,10 @@ article > *:not(.entry-content),
     --tw-bg-opacity: 1;
     background-color: rgb(249 115 22 / var(--tw-bg-opacity))
 }
+.hover\:text-primary:hover{
+    --tw-text-opacity: 1;
+    color: rgb(14 165 233 / var(--tw-text-opacity))
+}
 .focus\:outline-none:focus{
     outline: 2px solid transparent;
     outline-offset: 2px
@@ -1025,8 +1033,27 @@ article > *:not(.entry-content),
 .focus\:ring-offset-white:focus{
     --tw-ring-offset-color: #fff
 }
+.group:hover .group-hover\:top-5{
+    top: 1.25rem
+}
 .group:hover .group-hover\:block{
     display: block
+}
+.group:hover .group-hover\:object-bottom{
+    -o-object-position: bottom;
+       object-position: bottom
+}
+.group:hover .group-hover\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem
+}
+.group:hover .group-hover\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+.group:hover .group-hover\:text-primary{
+    --tw-text-opacity: 1;
+    color: rgb(14 165 233 / var(--tw-text-opacity))
 }
 @media (prefers-color-scheme: dark){
 
@@ -1178,6 +1205,56 @@ article > *:not(.entry-content),
     .lg\:text-6xl{
         font-size: 3.75rem;
         line-height: 1
+    }
+
+    .group:hover .lg\:group-hover\:top-5{
+        top: 1.25rem
+    }
+
+    .group:hover .lg\:group-hover\:top-6{
+        top: 1.5rem
+    }
+
+    .group:hover .lg\:group-hover\:mx-2{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem
+    }
+
+    .group:hover .lg\:group-hover\:place-content-center{
+        place-content: center
+    }
+
+    .group:hover .lg\:group-hover\:content-end{
+        align-content: flex-end
+    }
+
+    .group:hover .lg\:group-hover\:items-end{
+        align-items: flex-end
+    }
+
+    .group:hover .lg\:group-hover\:justify-center{
+        justify-content: center
+    }
+
+    .group:hover .lg\:group-hover\:justify-items-start{
+        justify-items: start
+    }
+
+    .group:hover .lg\:group-hover\:justify-items-end{
+        justify-items: end
+    }
+
+    .group:hover .lg\:group-hover\:justify-items-center{
+        justify-items: center
+    }
+
+    .group:hover .lg\:group-hover\:justify-items-stretch{
+        justify-items: stretch
+    }
+
+    .group:hover .lg\:group-hover\:px-2{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem
     }
 }
 @media (prefers-color-scheme: dark){
