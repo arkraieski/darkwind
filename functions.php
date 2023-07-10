@@ -8,7 +8,7 @@ function darkwind_setup() {
 
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'tailpress' ),
+			'primary' => __( 'Primary Menu', 'darkwind' ),
 		)
 	);
 
@@ -43,8 +43,8 @@ add_action( 'after_setup_theme', 'darkwind_setup' );
 function darkwind_enqueue_scripts() {
 	$theme = wp_get_theme();
 
-	wp_enqueue_style( 'tailpress', darkwind_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
-	wp_enqueue_script( 'tailpress', darkwind_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_style( 'darkwind', darkwind_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_script( 'darkwind', darkwind_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'darkwind_enqueue_scripts' );
@@ -117,7 +117,7 @@ function darkwind_register_block_styles(){
 		'core/button',
 		array(
 			'name' => 'cool-button',
-			'label' => __( 'Cool Button', 'textdomain'),
+			'label' => __( 'Cool Button', 'darkwind'),
 			//'inline_style' =>  '.is-style-cool-button {@apply w-full sm:w-auto flex-none bg-primary text-white hover:bg-orange-500 text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-full focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200;}'
 			'style_handle' => 'app-style',
 
