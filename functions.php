@@ -111,7 +111,7 @@ function darkwind_nav_menu_add_submenu_class( $classes, $args, $depth ) {
 
 add_action( 'init', "darkwind_register_block_styles");
 
-wp_register_style('app-style', get_stylesheet_directory_uri(). '/app.css');
+//wp_register_style('app-style', get_stylesheet_directory_uri(). '/app.css');
 
 function darkwind_register_block_styles(){
 	register_block_style(
@@ -120,7 +120,7 @@ function darkwind_register_block_styles(){
 			'name' => 'cool-button',
 			'label' => __( 'Cool Button', 'darkwind'),
 			//'inline_style' =>  '.is-style-cool-button {@apply w-full sm:w-auto flex-none bg-primary text-white hover:bg-orange-500 text-lg leading-6 font-semibold py-3 px-6 border border-transparent rounded-full focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200;}'
-			'style_handle' => 'app-style',
+			'style_handle' => 'darkwind',
 
 		)
 
