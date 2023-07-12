@@ -111,7 +111,7 @@ function darkwind_nav_menu_add_submenu_class( $classes, $args, $depth ) {
 
 add_action( 'init', "darkwind_register_block_styles");
 
-wp_register_style('app-style', get_stylesheet_uri(). '/app.css');
+wp_register_style('app-style', get_stylesheet_directory_uri(). '/app.css');
 
 function darkwind_register_block_styles(){
 	register_block_style(
